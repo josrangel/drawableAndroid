@@ -1,4 +1,4 @@
-#Tue Sep 22 13:05:55 CDT 2020
+#Tue Sep 22 13:45:58 CDT 2020
 base.0=/Users/kmmx/AndroidStudioProjects/Drawables/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

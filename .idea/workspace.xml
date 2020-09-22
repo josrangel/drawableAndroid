@@ -5,10 +5,12 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0df3a1b6-b8f8-4db5-ac2e-7b474151fe90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/josrangel/drawables/datos/Imagen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/josrangel/drawables/datos/ImagenAbs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -61,6 +63,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="NXPDU17622001077" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-09-22T18:44:46.483Z" />
     <property name="ResourceManagerPrefKey.ResourceType" value="MIPMAP" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -145,12 +149,20 @@
       <option name="project" value="LOCAL" />
       <updated>1600797101110</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Se hace el ejemplo con un arreglo de un objeto que se creo(Imagen)">
+      <created>1600798517289</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600798517289</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Se termina el ejemplo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se termina el ejemplo" />
+    <MESSAGE value="Se hace el ejemplo con un arreglo de un objeto que se creo(Imagen)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se hace el ejemplo con un arreglo de un objeto que se creo(Imagen)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="496" y="84" key="#com.intellij.ide.util.MemberChooser" timestamp="1600797934297">
@@ -161,29 +173,29 @@
       <screen x="0" y="23" width="1366" height="677" />
     </state>
     <state x="271" y="123" key="AndroidCreateResourceFileDialog/0.23.1366.677@0.23.1366.677" timestamp="1600796275813" />
-    <state x="207" y="23" key="CommitChangelistDialog2" timestamp="1600797099216">
+    <state x="28" y="23" width="1338" height="677" key="CommitChangelistDialog2" timestamp="1600798515588">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state x="207" y="23" key="CommitChangelistDialog2/0.23.1366.677@0.23.1366.677" timestamp="1600797099216" />
-    <state width="1324" height="122" key="GridCell.Tab.0.bottom" timestamp="1600798434293">
+    <state x="28" y="23" width="1338" height="677" key="CommitChangelistDialog2/0.23.1366.677@0.23.1366.677" timestamp="1600798515588" />
+    <state width="1324" height="164" key="GridCell.Tab.0.bottom" timestamp="1600800064643">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="122" key="GridCell.Tab.0.bottom/0.23.1366.677@0.23.1366.677" timestamp="1600798434293" />
-    <state width="1324" height="122" key="GridCell.Tab.0.center" timestamp="1600798434293">
+    <state width="1324" height="164" key="GridCell.Tab.0.bottom/0.23.1366.677@0.23.1366.677" timestamp="1600800064643" />
+    <state width="1324" height="164" key="GridCell.Tab.0.center" timestamp="1600800064642">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="122" key="GridCell.Tab.0.center/0.23.1366.677@0.23.1366.677" timestamp="1600798434293" />
-    <state width="1324" height="122" key="GridCell.Tab.0.left" timestamp="1600798434293">
+    <state width="1324" height="164" key="GridCell.Tab.0.center/0.23.1366.677@0.23.1366.677" timestamp="1600800064642" />
+    <state width="1324" height="164" key="GridCell.Tab.0.left" timestamp="1600800064642">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="122" key="GridCell.Tab.0.left/0.23.1366.677@0.23.1366.677" timestamp="1600798434293" />
-    <state width="1324" height="122" key="GridCell.Tab.0.right" timestamp="1600798434293">
+    <state width="1324" height="164" key="GridCell.Tab.0.left/0.23.1366.677@0.23.1366.677" timestamp="1600800064642" />
+    <state width="1324" height="164" key="GridCell.Tab.0.right" timestamp="1600800064643">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state width="1324" height="122" key="GridCell.Tab.0.right/0.23.1366.677@0.23.1366.677" timestamp="1600798434293" />
-    <state x="283" y="101" key="Vcs.Push.Dialog.v2" timestamp="1600797130750">
+    <state width="1324" height="164" key="GridCell.Tab.0.right/0.23.1366.677@0.23.1366.677" timestamp="1600800064643" />
+    <state x="283" y="101" key="Vcs.Push.Dialog.v2" timestamp="1600798537444">
       <screen x="0" y="23" width="1366" height="677" />
     </state>
-    <state x="283" y="101" key="Vcs.Push.Dialog.v2/0.23.1366.677@0.23.1366.677" timestamp="1600797130750" />
+    <state x="283" y="101" key="Vcs.Push.Dialog.v2/0.23.1366.677@0.23.1366.677" timestamp="1600798537444" />
   </component>
 </project>
