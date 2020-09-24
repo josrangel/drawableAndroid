@@ -10,7 +10,7 @@ import com.josrangel.drawables.datos.Imagen;
 import com.josrangel.drawables.datos.ImagenAbs;
 
 public class MainActivity extends AppCompatActivity {
-    ImageView imageView;
+    /*ImageView imageView;
     ImagenAbs[] imagenes;
     int contador=1;
 
@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
 
         imageView = findViewById(R.id.imageView);
         imageView.setImageResource(R.drawable.ic_barril);
-
 
         imagenes= new ImagenAbs[]{
                 new ImagenAbs() {
@@ -63,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         if(contador==4){
             contador=-1;
         }
-    }
+    }*/
 
     /*
     *
@@ -91,9 +90,9 @@ public class MainActivity extends AppCompatActivity {
     }
     * */
 
-    /*ImageView imageView;
+    ImageView imageView;
     int[] imagenes= {R.drawable.ic_barril, R.drawable.ic_ui_ux_design_mobile_icon_1, R.drawable.ic_ui_ux_design_mobile_icon_2,R.drawable.ic_ui_ux_design_mobile_icon_3,R.drawable.ic_ui_ux_design_mobile_icon_4};
-    int contador=1;
+    int contador=0;
 
 
     @Override
@@ -107,10 +106,33 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void cambiaImagen(View v){
+    public void cambiaImagenSiguiente(View v){
         imageView.setImageResource(imagenes[++contador]);
         if(contador==4){
             contador=-1;
         }
-    }*/
+    }
+
+    public void cambiaImagen(View v){
+        if(v.getId() == R.id.button1){
+            imageView.setImageResource(imagenes[0]);
+        }else if(v.getId() == R.id.button2){
+            imageView.setImageResource(imagenes[1]);
+        }else if(v.getId() == R.id.button3){
+            imageView.setImageResource(imagenes[2]);
+        }else if(v.getId() == R.id.button4){
+            imageView.setImageResource(imagenes[3]);
+        }else if(v.getId() == R.id.button5){
+            imageView.setImageResource(imagenes[4]);
+        }
+    }
+
+    public void cambiaImagenAntes(View v){
+        if(contador==0){
+            contador=4;
+        }else{
+            contador--;
+        }
+        imageView.setImageResource(imagenes[contador]);
+    }
 }

@@ -756,9 +756,11 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable ic_anterior
 drawable ic_barril
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_siguiente
 drawable ic_ui_ux_design_mobile_icon_1
 drawable ic_ui_ux_design_mobile_icon_2
 drawable ic_ui_ux_design_mobile_icon_3
@@ -826,7 +828,11 @@ id beginning
 id blocking
 id bottom
 id bounce
-id button
+id button1
+id button2
+id button3
+id button4
+id button5
 id buttonPanel
 id center
 id center_horizontal
@@ -886,6 +892,8 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView2
+id imageView3
 id info
 id invisible
 id italic
